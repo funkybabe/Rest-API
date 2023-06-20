@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Rubik:wght@400;500;700&display=swap');
+[data-theme='dark'] {
+	--Elements: hsl(209, 23%, 22%);
+	--Background: hsl(207, 26%, 17%);
+	--Text: hsl(0, 0%, 100%);
+	--Items: 14px;
+	--Detail: 16px;
+	--Input: hsl(0, 0%, 52%);
+	--Shadow: rgba(29, 30, 32, 0.2) 0px 8px 24px;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	background: var(--Background) !important;
+}
+.App {
+	background: var(--Background) !important;
+	width: 100%;
+	height: fit-content;
+	min-height: 100vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--Text: hsl(200, 15%, 8%);
+	--Input: hsl(0, 0%, 52%);
+	--Background: hsl(0, 0%, 98%);
+	--Elements: hsl(0, 0%, 100%);
+	--Items: 14px;
+	--Detail: 16px;
+	--Shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

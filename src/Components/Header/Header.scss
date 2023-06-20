@@ -1,0 +1,35 @@
+.Header {
+	width: 100vw;
+	height: 10vh;
+	background: var(--Elements);
+	display: grid;
+	text-align: center;
+	align-items: center;
+	box-shadow: var(--Shadow);
+	margin-bottom: 50px;
+
+	.HeaderContainer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h1 {
+			color: var(--Text);
+			font-size: 17px;
+			font-weight: 900;
+		}
+		.mode {
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			cursor: pointer;
+			.icon,
+			p {
+				font-size: 10px;
+				color: var(--Text);
+				font-weight: 700;
+			}
+		}
+	}
+}
+@media (min-width: 700px) {
+}
